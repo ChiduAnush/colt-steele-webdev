@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is the table heading lols</h1>
+
+    <table style=" width: 40%;">
+        <tr>
+            <th>name</th>
+            <th>number</th>
+            <th co>stay</th>
+        </tr>
+        <tr>
+            <td>chidu</td>
+            <td>1</td>
+            <td>hostel</td>
+        </tr>
+        <tr>
+            <td>omkar</td>
+            <td>2</td>
+            <td>hostel</td>
+        </tr>
+        <tr>
+            <td>shahsank</td>
+            <td>3</td>
+            <td>hostl</td>
+        </tr>
+    </table>
+
+    <h3>Lets do a form now</h3>
+    <form action="#">
+        <input type="color">
+        <input type="text" placeholder="enter name">
+        <input type="password">
+        <input type="date">
+    </form>
+
+    <h3>LEts try a label</h3>
+    <label for="timepass">Click here for timepass</label>
+    <input type="checkbox" id="timepass">
+
+    <label for="chidu"> click here if u like chidu</label>
+    <input type="checkbox" id="chidu">  
+
+    <h3>Now, time for an actual form, to send data to maybe actusl ssrvers?</h3>
+    <form action="https://www.google.com/search">
+        <label for="googs"> What do you wanna search on google?</label>
+        <input type="text" placeholder="click to type" id="googs" name="q">
+        <button>GO google</button>
+    </form>
+
+    <form action="https://www.reddit.com/search/">
+        <label for="reds">search on reddit: </label>
+        <input type="text" placeholder="blah blah bleh" id="reds" name="q">
+    </form>
+    
+    <form action="https://www.youtube.com/results/">
+        <label for="yous">Click for youtube search?</label>
+        <input type="text" name="search_query">
+        <input type="text" name="" id="">
+    </form> 
+
+    <label for="petselect"> select from teh drop down menu, choose your pet:</label>
+    <select name="pet" id="petselect">
+        <option value="cat">cat</option>
+        <option value="dog">dog</option>
+        <option value="hamster">hamster</option>
+        <option value="rat">rat</option>
+        <option value="owl">owl</option>
+    </select>
+
+
+    <h3><a href="https://www.google.com/search?q=rick+roll&client=safari&rls=en&sxsrf=AJOqlzU5D7gry80Ct5Pfg6rZMJQo2KVFTg:1673428948980&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj5873QmL_8AhVC-TgGHUP5CO4Q_AUoAXoECAEQAw&biw=1324&bih=761&dpr=2#imgrc=wW8HHTwVNKXPwM">YO! CLLICK MEEEEE</a></h3>
+
+    <h3>form validation demo</h3>
+    <form action="https://www./dummy">
+        <label for="vals">enter name</label>
+        <input type="text" name="first" id="vals" required>
+        <button>submit</button>
+    </form>
+    <br><br>
+
+    <hr>
+    <hr>
+
+    <br><br>
+
+    <h1>Race Registration!</h1>
+
+    <form action="#">
+        <label for="fn">First name</label>
+        <input type="text" name="fn" id="fn" required minlength="5" maxlength="15">
+        <br>
+        <label for="ln">Last name</label>
+        <input type="text" name="ln" id="ln" required minlength="4" maxlength="20">
+
+        <br>
+        <br>
+
+        select a race: <br>
+
+        <input type="radio" name="race" id="1" required value="sprint">
+        <label for="1">50m sprint</label>
+
+        <br>
+
+        <input type="radio" name="race" id="2" required value="dash100">
+        <label for="2">100m dash</label>
+
+        <br>
+
+        <input type="radio" name="race" id="3" required value="dash200">
+        <label for="3">200m dash</label>
+
+        <br>
+        <br>
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <label for="pass">Password: </label>
+        <input type="password" name="pass" id="pass" required>
+        <br>
+        <label for="ageselect">Select your age category</label>
+        <select name="age" id="ageselect">
+            <option value="" selected>select</option>
+            <option value="1">Below 10</option>
+            <option value="2">10 to 15 years</option>
+            <option value="3">15 to 20 years</option>
+            <option value="4"> above 20 years</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
